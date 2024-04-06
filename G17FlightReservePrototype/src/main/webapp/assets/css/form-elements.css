@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.form-top {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	padding: 15px;
+	background-color: rgb(232, 232, 232);
+	margin: 120px auto;
+	border-radius: 20px;
+	max-width: 50%;
+}
+
+.form-label {
+	color: #1f75fe;
+	margin-right: 15px;
+}
+
+.btn {
+	font-size: 1em;
+	height: 40px;
+	width: 100px;
+	background-color: #1f75fe;
+	color: #fff;
+	border-radius: 34px;
+	margin: 3% auto;
+}
+
+table {
+	margin: auto;
+}
+
+input {
+	height: 30px;
+	margin: 0px 15px;
+	padding: 0 20px;
+	vertical-align: middle;
+	background: #fff;
+	border: 3px solid #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 50px;
+	color: #888;
+	border-radius: 4px;
+}
+
+legend {
+	font-family: 'Nunito', cursive;
+	color: rgb(31, 117, 254);
+	font-size: 2em;
+	text-align: center;
+}
+
+fieldset {
+	padding: 2%;
+}
+
+.mb-4 {
+	display: flex;
+	flex-direction: column;
+	max-width: 70%;
+	margin: 3% auto;
+}
+
+.text-center p a {
+	text-decoration: none;
+	color: #1f75fe;
+}
+
+a:visited {
+	color: inherit;
+}
+
+.form-label {
+	margin-bottom: 5px;
+	font-family: 'Nunito', cursive;
+}
+
+.form-check-inline {
+	margin: 0px 5px;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Jacques+Francois+Shadow&family=Nunito:wght@600&family=Roboto:wght@300&display=swap')
+	;
+
+* {
+	margin: 0;
+	font-size: 20px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.nav {
+	background-color: #1f75fe;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin: 0px 10px;
+	font-size: 2.3em;
+	font-family: 'Nunito', cursive;
+	color: aliceblue;
+}
+
+.navOptions {
+	display: flex;
+	align-items: center;
+}
+
+.navOptions ul {
+	list-style: none;
+	display: flex;
+}
+
+.navOptions ul li a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.nav ul li {
+	margin: 0px 10px;
+	list-style: none;
+	font-size: 1em;
+	font-family: 'Nunito', sans-serif;
+}
+
+.navOptions ul li a:hover {
+	color: rgb(162, 164, 166);
+	text-decoration-line: underline;
+}
+
+.navOptions ul li ul.dropdown li {
+	margin: 10px 5px;
+	display: block;
+}
+
+.navOptions ul li ul.dropdown {
+	padding: 0px;
+	position: fixed;
+	margin: 1px auto;
+	background: #1f75fe;
+	display: none;
+}
+
+.sublogin:hover ul.dropdown {
+	display: block;
+}
