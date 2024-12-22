@@ -10,7 +10,7 @@ public class DBConnection {
 		final String DRIVER = "com.mysql.jdbc.Driver";
 		final String URL = "jdbc:mysql://localhost:3306/";
 		final String USERNAME = "root";
-		final String PASSWORD = "Pratham#1234";
+		final String PASSWORD = ""; //Enter your password here 
 		final String SCHEMA = "database_1";
 
 		try {
